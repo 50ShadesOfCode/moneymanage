@@ -1,12 +1,12 @@
 name: moneymanage
-description: A money manage application.
+description: A Flutter money managing application.
 
 publish_to: 'none'
 
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.18.6 <3.0.0'
+  sdk: '>=2.18.5 <3.0.0'
 
 dependencies:
   flutter:
@@ -22,8 +22,24 @@ dependencies:
   get_it: ^7.2.0
   stack_trace: ^1.10.0
   flutter_ume: ^1.0.0
+  equatable: ^2.0.3
+  flutter_bloc: ^8.0.1
+  bloc: ^8.0.3
+  introduction_screen: ^3.1.1
+  flutter_svg: ^1.1.6
 
   cupertino_icons: ^1.0.2
+
+  core:
+    path: core
+  domain:
+    path: domain
+  data:
+    path: data
+  core_ui:
+    path: core_ui
+  authorization:
+    path: features/authorization
 
 dev_dependencies:
   flutter_test:
@@ -36,3 +52,26 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/png/
+    - assets/images/svg/
+    - assets/resources/en.json
+    - assets/resources/ru.json
+
+  fonts:
+    - family: SF UI Display
+      fonts:
+        - asset: assets/fonts/sf-ui/SFUIDisplay-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/sf-ui/SFUIDisplay-Semibold.ttf
+          weight: 600
+        - asset: assets/fonts/sf-ui/SFUIDisplay-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/sf-ui/SFUIDisplay-Regular.ttf
+          weight: 400
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/roboto/Roboto-Medium.ttf
+          weight: 500

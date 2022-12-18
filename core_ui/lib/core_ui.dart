@@ -1,7 +1,15 @@
 library core_ui;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+import 'package:flutter/material.dart';
+
+part 'src/app_colors.dart';
+
+part 'src/app_fonts.dart';
+
+part 'src/app_images.dart';
+
+part 'src/app_theme.dart';
+
+part 'src/app_dimensions.dart';
+
+part 'src/app_styles.dart';

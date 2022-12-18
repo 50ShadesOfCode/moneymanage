@@ -1,0 +1,20 @@
+{
+  "next": "Next",
+  "skip": "Skip",
+  "onboarding_count": "Count your money!",
+  "onboarding_manage": "Manage your money!",
+  "onboarding_save": "Save your money!",
+  "errorsNoInternet": "No internet. Please, check the internet connection",
+  "errorsServer": "Server error. Please, retry later",
+  "signin": "Sign In",
+  "register": "Register",
+  "notregistered" : "Don't have an account?",
+  "or" : "or",
+  "done" : "Done",
+  "navigationToDiscover": "Discover",
+  "navigationToAlbums": "Albums",
+  "navigationToArtists": "Artists",
+  "navigationToFavourite": "Favourite",
+  "navigationToProfile": "Profile",
+  "cancel": "Cancel"
+}

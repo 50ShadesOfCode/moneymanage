@@ -1,0 +1,20 @@
+{
+  "next": "Далее",
+  "skip": "Пропустить",
+  "onboarding_count": "Считай свои деньги!",
+  "onboarding_manage": "Управляй своими деньгами!",
+  "onboarding_save": "Сохраняй свои деньги!",
+  "errorsNoInternet": "Нет интернета. Пожалуйста, проверьте подключение к интернету",
+  "errorsServer": "Ошибка сервера. Пожалуйста, повторите попытку позже",
+  "signin": "Войти",
+  "register": "Зарегистрироваться",
+  "notregistered" : "Нет аккаунта?",
+  "or" : "или",
+  "done": "Готово",
+  "navigationToDiscover": "Discover",
+  "navigationToAlbums": "Альбомы",
+  "navigationToArtists" : "Исполнители",
+  "navigationToFavourite" : "Избранные",
+  "navigationToProfile" : "Профиль",
+  "cancel": "Назад"
+}
